@@ -34,10 +34,17 @@ do
 done
 ```
 
-Tomar los resultados generales y extraer los de Córdoba
+Tomar los resultados generales y extraer los de la **Provincia de Córdoba**.  
 
 ```
-cat csv/MesasSublemaDNacionales.csv | grep "\"04\"\,\"0" > datos/MesasSublemasCordoba.csv
+cat csv/MesasSublemaDNacionales.csv | grep "\"04\"\,\"0" > datos/MesasSublemasCordobaProvincia.csv
 ```
+
+Tomar los resultados generales y extraer los de la **Ciudad de Córdoba**.  
+
+```
+cat csv/MesasSublemaDNacionales.csv | grep "\"04\"\,\"001" > datos/MesasSublemasCordobaProvinciaCiudad.csv
+```
+
 
 Tener en cuenta que la lista de _Ámbitos_ (secciones electorales o departalentos) y las listas participantes est án disponibles en tablas separadas: [Ámbitos](csv/NomAmbitos.csv)] - [Listas](csv/NomPartidos.csv)
