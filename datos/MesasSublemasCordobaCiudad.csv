@@ -1,3 +1,4 @@
+sub_proCodigoProvincia,sub_depCodigoDepartamento,sub_munCodigoMunicipio,sub_mesCodigoCircuito,sub_mesCodigoMesa,sub_mesCodSexo,sub_votparCodigo,sub_parCodigo,ordenPartidos,subVotosPartido
 "04","001","666","0001 ","0001","X","0022","3017",1,0
 "04","001","666","0001 ","0001","X","0069","3037",1,3
 "04","001","666","0001 ","0001","X","0201","3101",1,5

@@ -16,6 +16,8 @@ El entorno usado es sobre el sistema Operativo Ubuntu.
 
 ## Pasar a CSV las tablas
 
+Tener en cuenta que la lista de _Ámbitos_ (secciones electorales o departalentos) y las listas participantes est án disponibles en tablas separadas: [Ámbitos](csv/NomAmbitos.csv)] - [Listas](csv/NomPartidos.csv)
+
 En primer lugar podemos extraer las tablas desde Access a CSV con la herrmaienta _mdbtools_
 
 ```
@@ -37,14 +39,17 @@ done
 Tomar los resultados generales y extraer los de la **Provincia de Córdoba**.  
 
 ```
-cat csv/MesasSublemaDNacionales.csv | grep "\"04\"\,\"0" > datos/MesasSublemasCordobaProvincia.csv
+head -1 csv/MesasSublemaDNacionales.csv > datos/MesasSublemasCordobaProvincia.csv
+cat csv/MesasSublemaDNacionales.csv | grep "\"04\"\,\"0" >> datos/MesasSublemasCordobaProvincia.csv
 ```
+
+[Ver datos de la Provicia de Córdoba](datos/MesasSublemasCordobaProvincia.csv)
 
 Tomar los resultados generales y extraer los de la **Ciudad de Córdoba**.  
 
 ```
-cat csv/MesasSublemaDNacionales.csv | grep "\"04\"\,\"001" > datos/MesasSublemasCordobaProvinciaCiudad.csv
+head -1 csv/MesasSublemaDNacionales.csv > datos/MesasSublemasCordobaCiudad.csv
+cat csv/MesasSublemaDNacionales.csv | grep "\"04\"\,\"001" >> datos/MesasSublemasCordobaCiudad.csv
 ```
 
-
-Tener en cuenta que la lista de _Ámbitos_ (secciones electorales o departalentos) y las listas participantes est án disponibles en tablas separadas: [Ámbitos](csv/NomAmbitos.csv)] - [Listas](csv/NomPartidos.csv)
+[Ver datos de la Ciudad de Córdoba](datos/MesasSublemasCordobaCiudad.csv)
