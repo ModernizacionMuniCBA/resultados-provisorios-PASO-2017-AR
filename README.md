@@ -53,3 +53,5 @@ cat csv/MesasSublemaDNacionales.csv | grep "\"04\"\,\"001" >> datos/MesasSublema
 ```
 
 [Ver datos de la Ciudad de Córdoba](datos/MesasSublemasCordobaCiudad.csv)
+
+Luego del ordanamiento de los datos estos quedaron disponibles en nuestro portal de Gobierno Abierto: [VER EN EL PORTAL](https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos/categoria/sociedad/elecciones-a-diputados-nacionales-en-cordoba/223).  
