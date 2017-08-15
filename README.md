@@ -1,2 +1,5 @@
-# resultados-provisorios-PASO-2017-AR
-Ordenar datos de las PASO 2017 y disponibilizar para analistas, periodistas y otros
+### Resultados provisorios PASO 2017 Argentina
+
+En línea con nuestra política de contribuir con datos reutilizables para el ecosistema (analistas, periodistas, investigadores, etc) local de datos dejamos aquí herramientas para simplificar el uso de este recurso.
+
+
